@@ -11,6 +11,6 @@ while user != 0:
 print("Saiu do loop")
 
 #Funcionalidade multiplicação até 10
-userNum = int(input("Insira um número inteiro: "))
-for cont in range(1,userNum):
-  print(f"{cont} x {userNum} = {cont*userNum}")
+user = int(input("Insira um número: "))
+for i in range(0, user):
+  print(f"{user} x {i} = {user*i}")
